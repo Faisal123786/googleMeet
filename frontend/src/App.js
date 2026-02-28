@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect, useCallback } from 'react';
 import io from 'socket.io-client';
 import * as mediasoupClient from 'mediasoup-client';
 
-const SERVER_URL = 'https://1746-39-63-56-65.ngrok-free.app';
+const SERVER_URL = 'https://d869-39-63-56-65.ngrok-free.app';
 const socket = io(SERVER_URL, { transports: ['websocket'] });
 
 function emitAsync(event, data) {
